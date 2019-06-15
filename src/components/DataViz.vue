@@ -1,16 +1,17 @@
 <template>
-    <div class="main-div">
-        text here
-        {{msg}}
-    </div>
+    <h1>
+        {{test}}
+    </h1>
 </template>
 
 <script>
 export default {
   name: 'DataViz',
-  props: {
-    msg: String
+  
+  data() {
+    return {
+       test: 'My oh my!',
+    }
   }     
 }
 </script>
-

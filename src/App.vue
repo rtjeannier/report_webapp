@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <DataViz msg="THIS WILL THE TEXT ON MY PAGE"/>
+    <DataViz/>
   </div>
 </template>
 
